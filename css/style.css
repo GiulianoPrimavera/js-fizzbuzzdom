@@ -16,8 +16,7 @@ body{
     color: white;
 }
 .box{
-    height: 100px;
-    width: 100px;
+    width: calc(100% / 7 - 10px);
     display: flex;
     justify-content: center;
     align-items: center;
