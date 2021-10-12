@@ -7,8 +7,11 @@ body{
     padding: 0 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
+}
+.container_titolo{
+ justify-content: center;   
 }
 .titolo{
     font-size: 80px !important;
@@ -17,5 +20,19 @@ body{
 .box{
     height: 100px;
     width: 100px;
-    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg_neutral{
+    background-color: #1389b2;
+}
+.bg_tre_multiplo{
+    background-color: #0bd6a1;
+}
+.bg_cinque_multiplo{
+    background-color: #ffd166;
+}
+.bg_tre_cinque_multiplo{
+    background-color: #f0466f;
 }
