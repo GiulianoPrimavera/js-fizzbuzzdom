@@ -20,7 +20,6 @@ for (let i = 1; i <= 100; i++){
         scatola.classList.add ("bg_cinque_multiplo");
     }else{
         scatola.textContent = i;
-        scatola.classList.add ("bg_neutral");
     }
     
 

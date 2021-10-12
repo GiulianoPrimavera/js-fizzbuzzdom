@@ -21,8 +21,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.bg_neutral{
     background-color: #1389b2;
 }
 .bg_tre_multiplo{
